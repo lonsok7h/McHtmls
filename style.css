@@ -1,0 +1,178 @@
+*{
+    /* border: 2px solid black; */
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+header{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header img{
+    height: 100px;
+    border-radius: 50px;
+}
+.indice{
+    text-transform: uppercase;
+    font-family: Poetsen One, sans-serif;
+}
+.indice:hover{
+    color: rgb(255, 0, 0);
+    text-decoration: underline 4px rgb(231, 231, 103);
+}
+.botonheader{
+    font-family: sans-serif;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 7px;
+    font-size: 16px;
+}
+.botonheader:last-of-type{
+    background-color: black;
+    color: white;
+}
+hr{
+    border: 3px solid burlywood;
+    margin: 15px 50px;
+}
+
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box img, .item{
+    height: 335px;
+    width: 360px;
+
+}
+.box h2{
+    text-align: center;
+    color: rgb(174, 30, 30);
+    font-family: Poetsen One, sans-serif;
+}
+.box p{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
+.uno{
+   background-color: rgba(236, 193, 67, 0.681);
+}
+.dos{
+    background-color: rgb(220, 171, 107);
+}
+
+.conocemas{
+    align-self: center;
+    text-align: center;
+    border: 2px solid rgb(118, 66, 66);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(118, 66, 66);
+}
+#info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px 30px;
+}
+#info p{
+    padding: 6px;
+    border-radius: 9px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer img{
+    height: 100px;
+}
+.link:active,.link:focus{
+    color: brown;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.queso img{
+    height: 150px;
+    width: 200px;
+    border-radius: 100px;
+    margin: 15px;
+}
+#mcmenu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+}
+.queso{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.queso h3{
+    width: 180px;
+    text-align: center;
+    font-family: Poetsen One, sans-serif;
+    margin: auto;
+}
+li{
+    margin: 10px;
+}
+#lista, #opciones{
+    border: 2px solid orange;
+    margin: 15px;
+}
+#opciones{
+    padding: 5px;
+    background-color: whitesmoke;
+}
+#opciones h2:last-of-type{
+    margin-top: 60px;
+}
+#info p:hover{
+    color: white;
+    background-color: black;
+}
+#todos{
+    background-color: rgb(208, 206, 206);
+    margin: 10px 80px;
+}
+#todos p{
+    font-family: sans-serif;
+    margin: 15px;
+    width: 180px;
+    border-bottom: 2px solid black;
+}
